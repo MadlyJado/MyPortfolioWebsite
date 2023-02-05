@@ -26,7 +26,7 @@
                         <a class="nav-link bg-lunargreen textcolor-copper roundedcorners" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bg-lunargreen textcolor-copper roundedcorners" href="/">Works</a>
+                        <a class="nav-link bg-lunargreen textcolor-copper roundedcorners" href="/works">Works</a>
                     </li>
                 </ul>
             </div>
