@@ -39,7 +39,7 @@
                         <a class="nav-link {worksActive} textcolor-copper" href="/works">Works</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {githubActive} textcolor-copper" href="/github">GitHub</a>
+                        <a class="nav-link {githubActive} textcolor-copper" href="https://github.com/MadlyJado?tab=repositories">GitHub</a>
                     </li>
                 </ul>
             </div>
