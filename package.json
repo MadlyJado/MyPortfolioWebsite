@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bootstrap": "^5.2.3"
+		"bootstrap": "^5.2.3",
+		"gh-pages": "^5.0.0"
 	}
 }
