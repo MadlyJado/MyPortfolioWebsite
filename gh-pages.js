@@ -3,7 +3,7 @@ import { publish } from "gh-pages";
 publish(
     'public',
     {
-        branch: 'gh-pages',
+        branch: 'main',
         repo: 'https://github.com/MadlyJado/MyPortfolioWebsite.git',
         user: {
             name: 'MadlyJado',
