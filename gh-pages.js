@@ -1,6 +1,6 @@
-var ghpages = require('gh-pages');
+import { publish } from "gh-pages";
 
-ghpages.publish(
+publish(
     'public',
     {
         branch: 'gh-pages',
@@ -14,4 +14,4 @@ ghpages.publish(
     () => {
         console.log("Deploy Complete!")
     }
-)
+);
