@@ -8,7 +8,8 @@ ghpages.publish(
         user: {
             name: 'MadlyJado',
             email: 'jadonchenard@gmail.com'
-        }
+        },
+        dotfiles: true
     },
     () => {
         console.log("Deploy Complete!")
