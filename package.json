@@ -12,7 +12,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"deploy": "node ./gh-pages.js"
+		"deploy": "npx gh-pages -d build"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bootstrap": "^5.2.3"
+		"bootstrap": "^5.2.3",
+		"svelte-adapter-github": "^1.0.0-next.0"
 	}
 }
