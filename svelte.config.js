@@ -1,10 +1,11 @@
-const config = {
-    preprocess: vitePreprocess(),
+import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-node';
 
-    kit: {
-        adapter: adapter(),
-        paths: {
-            base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
-        }
-    }
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	kit: {
+		adapter: adapter(),
+	},
 };
+
+export default config;
