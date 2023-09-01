@@ -1,0 +1,33 @@
+.logoImage {
+    border-radius: 25%;
+    width: 5%;
+    height: 50%;
+}
+
+.bg-nutmeg {
+    background-color: #774429;
+}
+
+.bg-ebb {
+    background-color: #EEEBE9;
+}
+
+.bg-copper {
+    background-color: #BE7439;
+}
+
+.bg-lunargreen {
+    background-color: #38413B;
+}
+
+.textcolor-copper {
+    color: #BE7439;
+}
+
+.textcolor-lunargreen {
+    color: #38413B;
+}
+
+.roundedcorners {
+    border-radius: 25%;
+}
